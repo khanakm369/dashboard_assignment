@@ -1,0 +1,50 @@
+.products-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8fafc;
+  min-height: 100vh;
+}
+
+.products-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 1rem;
+}
+
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.products-table th {
+  background-color: #1d4ed8;
+  color: white;
+  text-align: left;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.products-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+  color: #374151;
+}
+
+.products-table img {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.products-table tr:hover {
+  background-color: #f1f5f9;
+  transition: background 0.3s ease;
+}

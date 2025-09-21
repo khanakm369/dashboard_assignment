@@ -1,0 +1,43 @@
+.profiles-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8fafc;
+  min-height: 100vh;
+}
+
+.profiles-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+}
+
+.profiles-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.profiles-table th {
+  background-color: #2563eb;
+  color: white;
+  text-align: left;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.profiles-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+  color: #374151;
+}
+
+.profiles-table tr:hover {
+  background-color: #f1f5f9;
+  transition: background 0.3s ease;
+}

@@ -1,0 +1,64 @@
+.orders-container {
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f1f5f9, #e2e8f0);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.orders-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
+
+.orders-table-wrapper {
+  overflow-x : auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  background: white;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.orders-table th {
+  background-color: #111827;
+  color: white;
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.orders-table td {
+  padding: 12px 16px;
+  font-size: 14px;
+  color: #374151;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.orders-table tr:hover {
+  background-color: #f3f4f6;
+  transition: background 0.3s ease;
+}
+
+/* Status badges */
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.status-delivered { background-color: #d1fae5; color: #065f46; }
+.status-cancelled { background-color: #fee2e2; color: #991b1b; }
+.status-shipped   { background-color: #dbeafe; color: #1e40af; }
+.status-processing{ background-color: #fef3c7; color: #b45309; }
+.status-default   { background-color: #e5e7eb; color: #374151; }
